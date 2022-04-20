@@ -1,0 +1,34 @@
+@import "./../../styles/settings.scss";
+
+.cards {
+    position: relative;
+    list-style-type: none;
+    background-color: $color-light;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 5px;
+
+}
+
+.mountain {
+    font-family: 'Calibri';
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.height {
+    font-family: 'Inder';
+    font-size: 30px;
+    color: $color-main;
+}

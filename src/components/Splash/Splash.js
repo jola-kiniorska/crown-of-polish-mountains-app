@@ -6,8 +6,8 @@ const Splash = () => {
             <img 
             className={styles.image}
             src={`${process.env.PUBLIC_URL}/images/splash/mountains.jpg`} 
-            alt="splash-image" />
-                <h2 className={styles.header}>Crown of Polish Mountains</h2>
+            alt="splash" />
+            <h2 className={styles.header}>Crown of Polish Mountains</h2>
         </div>
     );
 };

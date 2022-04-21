@@ -10,7 +10,7 @@ const Column = props => {
         <article>
             <ul className={styles.column}>
                 {cards.map(card =>
-                    <Card key={card.id} name={card.name} height={card.height}/>
+                    <Card key={card.id} name={card.name} height={card.height} clicked={card.clicked}/>
                 )}
             </ul>
         </article>

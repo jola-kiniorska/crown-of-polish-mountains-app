@@ -4,13 +4,13 @@ const initialState = {
             id: '1',
             name: 'Rysy',
             height: '2499',
-            clicked: true,
+            clicked: false,
         },
         {
             id: '2',
             name: 'Babia Góra',
             height: '1725',
-            clicked: true,
+            clicked: false,
         },
         {
             id: '3',

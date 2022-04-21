@@ -9,10 +9,6 @@
     margin: 20px;
     border-radius: 40px;
     cursor: pointer;
-
-    &.active {
-        background-color: $color-main;
-    }
 }
 
 .cards:hover {
@@ -39,4 +35,24 @@
     font-family: "Inder";
     font-size: 30px;
     color: $color-main;
+}
+
+.clicked {
+    background-color: $color-main;
+    color: $color-dark;
+}
+
+.reached {
+    color: $color-light;
+    font-size: 30px;
+    font-family: $font-main;
+    border-top: 2px solid $color-light;
+    border-bottom: 2px solid $color-light;
+    padding: 20px;
+}
+
+.nameClicked {
+    font-size: 24px;
+    font-family: $font-text;
+    padding: 1px;
 }

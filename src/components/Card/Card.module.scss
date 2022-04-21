@@ -8,6 +8,11 @@
     width: 230px;
     margin: 20px;
     border-radius: 40px;
+    cursor: pointer;
+
+    &.active {
+        background-color: $color-main;
+    }
 }
 
 .cards:hover {
@@ -21,18 +26,17 @@
     transform: translate(-50%, -50%);
     text-align: center;
     line-height: 5px;
-
 }
 
 .mountain {
-    font-family: 'Calibri';
+    font-family: "Calibri";
     font-size: 40px;
     font-weight: 300;
     line-height: 45px;
 }
 
 .height {
-    font-family: 'Inder';
+    font-family: "Inder";
     font-size: 30px;
     color: $color-main;
 }

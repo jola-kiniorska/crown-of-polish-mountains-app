@@ -1,0 +1,24 @@
+@import "./../../styles/settings.scss";
+
+.counter {
+    background-color: $color-light;
+    text-align: center;
+    padding: 50px;
+}
+
+.border {
+    border: 5px solid $color-dark;
+    border-radius: 40px;
+    margin: 20px 150px;
+}
+
+.text {
+    line-height: 80px;
+    font-size: 40px;
+    font-family: $font-main;
+}
+
+.text span {
+    color: $color-main;
+    font-size: 70px;
+}

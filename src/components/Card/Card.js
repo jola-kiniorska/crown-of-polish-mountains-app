@@ -4,12 +4,13 @@ import { useState } from 'react';
 
 const Card = props => {
 
-const [clicked, setClicked] = useState(props.clicked)
+const [clicked, setClicked] = useState(props.clicked);
 
 const handleSubmit = e => {
     e.preventDefault();
     setClicked(clicked => !clicked);
 }
+
     if(clicked) 
     return (
         <li onClick={handleSubmit} className={clsx(styles.cards, styles.clicked)}>

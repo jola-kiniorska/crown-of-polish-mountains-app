@@ -1,14 +1,23 @@
 import styles from './Card.module.scss';
 import clsx from 'clsx';
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { getClickedMountains } from '../../redux/store';
 
 const Card = props => {
+
+const dispatch = useDispatch()
+
+const ifClicked = props.clicked;
+const mountainId = props.id;
 
 const [clicked, setClicked] = useState(props.clicked);
 
 const handleSubmit = e => {
     e.preventDefault();
     setClicked(clicked => !clicked);
+    dispatch(getClickedMountains(mountainId, ifClicked))
+    console.log(props.clicked);
 }
 
     if(clicked) 

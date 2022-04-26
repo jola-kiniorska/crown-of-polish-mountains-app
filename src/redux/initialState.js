@@ -168,7 +168,9 @@ const initialState = {
             height: '614',
             clicked: false,
         },
-    ]
+    ],
+
+    clickedMountains: []
 };
 
 export default initialState;

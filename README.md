@@ -10,7 +10,7 @@ HTML5, CSS3, React, Redux
 https://calm-crag-62605.herokuapp.com/
 
 ## Check the whole project design at:
-https://www.behance.net/jolaklodowska
+https://www.behance.net/gallery/142175951/Crown-of-Polish-Mountains-App
 
 ## Screenshots
 

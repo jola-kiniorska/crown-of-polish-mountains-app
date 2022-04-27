@@ -1,20 +1,20 @@
 import { createStore } from 'redux';
 import initialState from './initialState';
-import shortid from 'shortid';
 
 // selectors
-export const getMountains = ({ mountains }) => mountains;
+export const getMountains = state => state.mountains;
+export const getClickedMountains = state => state.clickedMountains;
 
 // actions
 const createActionName = actionName => `app/lists/${actionName}`;
-const GET_CLICKED_MOUNTAINS = createActionName('GET_CLICKED_MOUNTAINS');
+const ADD_CLICKED_MOUNTAINS = createActionName('GET_CLICKED_MOUNTAINS');
 
 // action creators
-export const getClickedMountains = payload => ({ type: GET_CLICKED_MOUNTAINS, payload})
-const reducer = (statePart = [], action) => {
+export const addClickedMountains = payload => ({ type: ADD_CLICKED_MOUNTAINS, payload})
+const reducer = (statePart = {}, action) => {
     switch (action.type) {
-        case GET_CLICKED_MOUNTAINS:
-            return [...statePart, {...action.payload, id: shortId() }];
+        case ADD_CLICKED_MOUNTAINS:
+            return { ...statePart, clickedMountains: [...statePart.clickedMountains, action.payload.mountainId]};
         default:
             return statePart;
     }

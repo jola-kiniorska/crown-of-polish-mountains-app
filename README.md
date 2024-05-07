@@ -7,7 +7,7 @@ I created an app for people who love mountains, hiking and feeling free in the n
 HTML5, CSS3, React, Redux
 
 ## Check the website at:
-https://calm-crag-62605.herokuapp.com/
+https://black-grass-023cd2603.5.azurestaticapps.net/
 
 ## Check the whole project design at:
 https://www.behance.net/gallery/142175951/Crown-of-Polish-Mountains-App

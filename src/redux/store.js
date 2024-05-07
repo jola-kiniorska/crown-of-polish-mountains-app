@@ -16,10 +16,8 @@ export const removeClickedMountains = payload => ({ type: REMOVE_CLICKED_MOUNTAI
 const reducer = (statePart = {}, action) => {
     switch (action.type) {
         case ADD_CLICKED_MOUNTAINS:
-            debugger;
             return { ...statePart, clickedMountains: [...statePart.clickedMountains, action.payload.mountainId]};
         case REMOVE_CLICKED_MOUNTAINS:
-            debugger;
             return {...statePart, clickedMountains: statePart.clickedMountains.filter(item => item !== action.payload.mountainId)};
         default:
             return statePart;

@@ -1,31 +1,37 @@
 # Crown of Polish Mountains App
 
-I created an app for people who love mountains, hiking and feeling free in the nature. Crown of Polish Mountains is a list of 28 peaks: one from each of the mountain ranges of Poland. User can check which mountains are on the list and what is their a.s.l. height. User can also mark mountains that he has already reached. At the bottom, the app summarizes the total amount of peaks already accomplished.
+It is an app for people who love mountains, hiking and feeling free in the nature. The application allows you to mark Polish peaks that you have already conquered.
 
-![mountains](./docs/mountains.jpg)
-## Technologies used:
-HTML5, CSS3, React, Redux
+## Table of contents
 
-## Check the website at:
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Website url](#website-url)
+- [Website screenshot](#website-screenshots)
+
+## General info
+
+- the application is built on react components
+- react redux was used to store the names and heights of the peaks
+- crown of Polish Mountains is a list of 28 peaks: one from each of the mountain ranges of Poland
+- user can check which mountains are on the list and what is their a.s.l. height
+- user can also mark mountains that he has already reached
+- at the bottom, the app summarizes the total amount of peaks already accomplished
+- the application is currently made only for desktop view
+
+## Technologies
+
+Project is created with:
+
+- React.js
+- React Redux
+- JavaScript
+- SCSS
+
+## Website url
+
 https://black-grass-023cd2603.5.azurestaticapps.net/
 
-## Check the whole project design at:
-https://www.behance.net/gallery/142175951/Crown-of-Polish-Mountains-App
+## Website screenshot
 
-## Screenshots
-
-### Header
-
-![header](./docs/header.png)
-
-### Non-clicked cards
-
-![nonclicked](./docs/nonclicked.png)
-
-### Clicked cards
-
-![clicked](./docs/clicked.png)
-
-### Counter
-
-![counter](./docs/counter.png)
+<img src="./public/images/app_screen.png" alt="app-screenshot">

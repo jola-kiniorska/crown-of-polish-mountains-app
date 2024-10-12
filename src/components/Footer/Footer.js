@@ -3,7 +3,7 @@ import styles from './Footer.module.scss'
 const Footer = () => {
     return (
         <div className={styles.footer}>
-            <p>Copyright Crown of Polish Mountains App</p>
+            <p>Created by Jola Kiniorska. Powered by React</p>
         </div>
     );
 }
